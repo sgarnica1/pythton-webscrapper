@@ -24,4 +24,4 @@ def main():
         individual_row_data = [data.text.strip() for data in row_data]
         df.loc[len(df)] = individual_row_data   
 
-    print(df)
+    df.to_csv(r'C:\Users\sgarn\Documents\Dev\Personal\Python\WebScrapper\output\companies.csv', index=False)
