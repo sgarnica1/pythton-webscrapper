@@ -1,13 +1,16 @@
 [project]
 name = "WebScrapper"
-version = "0.1"
+description = "python project for web scrapping"
+version = "0.1.0"
+authors = [
+    { name = "Sergio Garnica", email = "sgarnica1902@gmail.com" }
+]
+
+dependencies = ["beautifulsoup4", "requests"]
 
 [build-system]
 requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project.scripts]
-WebScrapper = "webscrapper.webscrapper:main"
-
-[project.gui-scripts]
-WebScrapper = "webscrapper.webscrapper:main"
+webscrapper = "webscrapper.webscrapper:main"
