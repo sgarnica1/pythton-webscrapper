@@ -6,7 +6,7 @@ authors = [
     { name = "Sergio Garnica", email = "sgarnica1902@gmail.com" }
 ]
 
-dependencies = ["beautifulsoup4", "requests"]
+dependencies = ["beautifulsoup4", "requests", "pandas"]
 
 [build-system]
 requires = ["setuptools>=61.0"]
