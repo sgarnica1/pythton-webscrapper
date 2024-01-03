@@ -1,0 +1,13 @@
+[project]
+name = "WebScrapper"
+version = "0.1"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project.scripts]
+WebScrapper = "webscrapper.webscrapper:main"
+
+[project.gui-scripts]
+WebScrapper = "webscrapper.webscrapper:main"
